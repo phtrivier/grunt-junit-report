@@ -10,23 +10,23 @@ This plugin requires Grunt `~0.4.5`
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
-npm install grunt-av-jasmine --save-dev
+npm install grunt-junit-report --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-av-jasmine');
+grunt.loadNpmTasks('grunt-junit-report');
 ```
 
-## The "av_jasmine" task
+## The "junit_report" task
 
 ### Overview
-In your project's Gruntfile, add a section named `av_jasmine` to the data object passed into `grunt.initConfig()`.
+In your project's Gruntfile, add a section named `junit_report` to the data object passed into `grunt.initConfig()`.
 
 ```js
 grunt.initConfig({
-  av_jasmine: {
+  junit_report: {
     options: {
       // Task-specific options go here.
     },
@@ -58,7 +58,7 @@ In this example, custom options are used to do something else with whatever else
 
 ```js
 grunt.initConfig({
-  av_jasmine: {
+  junit_report: {
     foo : {
       options : {
         xmlFolder : "./reports/xml"
