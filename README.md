@@ -55,7 +55,6 @@ Path to folder where html reports will be created.
 ### Usage Examples
 
 #### Custom Options
-In this example, custom options are used to do something else with whatever else. So if the `testing` file has the content `Testing` and the `123` file had the content `1 2 3`, the generated result in this case would be `Testing: 1 2 3 !!!`
 
 ```js
 grunt.initConfig({
@@ -65,8 +64,8 @@ grunt.initConfig({
         xmlFolder : "./reports/xml"
          outputFolder : "./output"
       }
-    },
-  },
+    }
+  }
 });
 ```
 
@@ -74,5 +73,4 @@ grunt.initConfig({
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
- * 2014-08-19 v0.0.2 Re-released because README.md was slightly broken. Silly me.
- * 2014-08-07 v0.0.1 First version
+ * 2014-08-19 v0.0.3 First clean version.
