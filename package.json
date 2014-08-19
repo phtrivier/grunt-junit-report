@@ -1,8 +1,14 @@
 {
-  "name": "grunt-junit-report",
-  "version": "0.0.1",
-  "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-xsltproc": "^0.4.0"
-  }
+    "name": "grunt-junit-report",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/phtrivier/grunt-junit-report.git"
+    },
+    "author": "Pierre-Henri Trivier <phtrivier@yahoo.fr>",
+    "license": "MIT",
+    "devDependencies": {
+        "grunt": "^0.4.5",
+        "grunt-xsltproc": "^0.4.0"
+    }
 }
