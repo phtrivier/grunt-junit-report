@@ -2,6 +2,7 @@
 
 Basic generation of Junit HTML reports from existing XML reports.
 This is similar to - but much more limited than - the JUnitReport ant task (https://ant.apache.org/manual/Tasks/junitreport.html)
+
 This only supports generating reports with the "junit-noframes.html" template at the moment.
 
 ## Getting Started
