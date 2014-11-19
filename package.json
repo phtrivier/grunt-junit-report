@@ -7,8 +7,10 @@
   },
   "author": "Pierre-Henri Trivier <phtrivier@yahoo.fr>",
   "license": "MIT",
-  "devDependencies": {
-    "grunt": "^0.4.5",
+  "dependencies": {
     "grunt-xsltproc": "^0.4.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5"
   }
 }
